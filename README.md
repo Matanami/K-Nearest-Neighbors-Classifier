@@ -10,7 +10,7 @@ Make sure to install the following dependencies before running the script:
 pip install numpy matplotlib scikit-learn
 ```
 
-##Usage
+## Usage
 
 To run the script, execute the following command:
 ```bash
