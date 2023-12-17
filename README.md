@@ -17,7 +17,7 @@ To run the script, execute the following command:
 python knn_classifier.py
 ```
 
-##Code Overview
+## Code Overview
 
 getDistanceForAllTestImage(train, test_image): Calculates distances between test images and all training images.
 getLabelsForAllTestImageOrderByDistance(train, train_labels, test_image): Gets labels for test images ordered by distance.
@@ -26,6 +26,6 @@ getAccuracyPerKAndN(distance_array_for_all_test, k, test_labels, n): Calculates 
 getAccuracyForN(distance_array, test_labels): Calculates accuracy for different values of N.
 getAccuracyForFirstK(k, distance_array, test_labels, number_of_test): Calculates accuracy for the first K values.
 main(): Main function to run the KNN classifier and visualize results.
-##Results
+## Results
 
 The script prints and plots the accuracy of the KNN classifier for different values of K and N. The accuracy is evaluated based on the MNIST test dataset.
